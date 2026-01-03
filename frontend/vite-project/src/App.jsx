@@ -11,10 +11,13 @@ function App() {
   );
 
   useEffect(() => {
-    fetch(`http://localhost:4000/list?search=${search}`)
+    fetch(`${API_URL}/list?search=${search}`)
       .then(res => res.json())
       .then(data => setGames(data));
   }, [search]);
+
+const API_URL = import.meta.env.VITE_API_URL;
+
 
   return (
    
