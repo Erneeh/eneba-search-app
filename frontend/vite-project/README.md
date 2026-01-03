@@ -29,8 +29,8 @@ Returns games matching the search query.
 Supports partial / fuzzy matching.
 
 
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
-cd YOUR-REPO
+git clone https://github.com/Erneeh/eneba-search-app
+cd eneba-search-app
 
 cd backend
 npm install

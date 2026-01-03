@@ -8,5 +8,17 @@ db.serialize(() => {
 
 module.exports = db;
 
+// db.run(`
+//     CREATE TABLE games (
+//   id INTEGER PRIMARY KEY AUTOINCREMENT,
+//   title TEXT NOT NULL,
+//   price REAL NOT NULL,
+//   discount INTEGER DEFAULT 0,
+//   platform TEXT NOT NULL,
+//   region TEXT NOT NULL,
+//   image_url TEXT NOT NULL,
+//   likes INTEGER DEFAULT 0
+//     );
+//  `);
 
 
