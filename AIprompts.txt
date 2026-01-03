@@ -1,0 +1,57 @@
+AI prompts
+
+
+CHATGPT :
+
+ok ill use node js for back end, and frontend react, how do i start this
+that bit with inserting into the db, i dont get it
+well i need to install tailwind into this aswell
+i need a tailwind media classs like for media over 930px
+k then why does it give margin to a parent div? like it leaves blank spaces here
+IM TALKING ABOUT THE BLANK WHITE SPACE ON TOP NOT ON X AXIS
+
+help me pass those props, the Header contains the search, but the app displays the finds
+no i need full design for this
+
+body { -webkit-font-smoothing: antialiased; color: rgb(255, 255, 255); overflow-x: hidden; overflow-y: scroll; font: 1.6rem / 1.5 metropolis, Arial, Helvetica, sans-serif; background: rgb(70, 24, 172); } i need this font for every
+
+mmm the border is like this color - background: linear-gradient(90deg, #E0426E 0%, #7A4EDF 100%); but the inside should be as it is righjt now. how do i change this? im using tailwind, and the default si before class: and this is the before:: background: linear-gradient(90deg, #E0426E 0%, #7A4EDF 100%); and this is regular - background: linear-gradient(90deg, #D32252 0%, #3C1395 100%);
+
+background: linear-gradient(90deg, #A21A4A 0%, #351183 100%); this is on hover i gues or no?
+well i need to move the games mapping aswell - but im thinking about doing like a grid component (that has a grid like 4x4 for games) and a container for that each grid component
+
+help me add those number of results found in search query
+
+ok i found out that on pressing enter (refreshing the page) on search, it refreshes without leaving the searched results (goes back to default)
+
+well enter should refresh the page with the typed and wanted results eg fifa 23
+as you can see in the picture and i made this class in the middle of the image/info
+
+instead of adding new tables to the database, can i do like <span className="line-through pr-0.75">{game.old_price} €</span> <span className="text-[#84e916]">{game.discount}%</span> and the old price to be game price * some discount
+or maybe delete current objects in database and add new tables - title - price - old price(if no discount then no - ill change that in the code by adding if statement) - then platform and it has to have a picture like steam/xbox/pc - then region(global, europe, asia etc ) - discount - (chargeback is fixed so ill add as a varibale that is 9.1% of price or discounted price) - likes - and picture for the card (whether its fifa, some other game), did i miss anything?
+ok now step by step
+i need a readme please do it
+help me push it to github and vercel i guess?
+ok i changed the code, i need to push to github?
+SO I NEED NEXT STEPS ON RENDER
+
+
+CLAUDE
+
+how to select this not for outer div but for the one - media value
+yeah but if i apply it applies to parent div not this one
+i dont need css for this, only tailwind
+help me get the svg
+basically i have to make this SVG hover with the log in BUT once i hover on register the log in and svg shouldnt be hovered
+THE THING IS THIS LINE BETWEEN THEM HAS TO BE SAME SIZE AS THE DIGITS IN WORDS. I ACHIEVED THIS WITH THE FIRST BUTTON IN LANGUAGES, BUT NOW SINCE THE SVG IS INSIDE THE BUTTON, THIS INCREASES THE HEIGHT SO THE SPAN BORDER IS HIGHER , SO THE SVG HAS TO BE LIKE OUTSIDE , YES?
+ok problem - once i hover the register, the first div is hovered, and second problem - i can hover the svg, but it is not clickable , flippin hell
+k -this should appear once something is written the x
+remove the original
+need to appear inside and in the middle
+
+"code" why is this not lined up?
+
+the svg and word
+
+line height problem or whhat?
+how do i remove every item from db?
