@@ -34,7 +34,10 @@ cd eneba-search-app
 
 cd backend
 npm install
+node seed.js 
+db.js (copy and insert the code to create table)
 npm run dev
+
 
 cd frontend/vite-project
 npm install
