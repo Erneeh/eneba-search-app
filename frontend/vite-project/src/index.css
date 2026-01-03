@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+@import "@fontsource/metropolis";
+@import "@fontsource/metropolis/500.css";
+@import "@fontsource/metropolis/700.css";
+
+
+body {
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-family: "Metropolis", Arial, Helvetica, sans-serif;
+  font-size: 1.6rem / 1.5;
+  line-height: 1;
+  background: rgb(70, 24, 172);
+}
