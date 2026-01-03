@@ -4,7 +4,7 @@ const db = new sqlite3.Database("./games.db");
 
 db.serialize(() => {
      db.run(`
-    "CREATE TABLE games (
+    CREATE TABLE games (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   title TEXT NOT NULL,
   price REAL NOT NULL,
@@ -13,7 +13,7 @@ db.serialize(() => {
   region TEXT NOT NULL,
   image_url TEXT NOT NULL,
   likes INTEGER DEFAULT 0
-    );"
+    )
  `);
 });
 
