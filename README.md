@@ -35,7 +35,7 @@ cd eneba-search-app
 cd backend
 npm install
 node seed.js (not necessary)
-db.js (copy and insert the code to create table)
+db.js (copy and insert the code to create table if needed)
 npm run dev
 
 
